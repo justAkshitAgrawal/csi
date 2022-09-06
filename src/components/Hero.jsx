@@ -5,7 +5,7 @@ import Socials from "./Socials";
 
 function Hero({ setPage }) {
   return (
-    <div className=" bg-[#2f3340] h-fit w-[80vw] lg:h-[70vh] lg:w-[37vw] rounded-3xl shadow-xl flex flex-col items-center p-5 space-y-4">
+    <div className=" bg-[#2f3340] h-fit w-[80vw] lg:h-fit lg:w-[37vw] rounded-3xl shadow-xl flex flex-col items-center p-5 lg:pb-9 space-y-4">
       <div className=" p-3 bg-[#3E4352] rounded-full shadow-lg mt-2">
         <div className=" p-2 rounded-full bg-gradient-to-r from-[#7A61DA] to-[#ff7a7a] shadow-lg">
           <img
@@ -22,7 +22,7 @@ function Hero({ setPage }) {
       <h1 className=" text-center lg:text-4xl text-2xl tracking-wide mt-1 text-[#A6A8AD] font-semibold">
         Student Chapter
       </h1>
-      <div className=" mt-16 lg:pt-20">
+      <div className="lg:pt-8">
         <Button title="About Us" setPage={setPage} />
       </div>
       <div className=" flex space-x-3 mt-3">
