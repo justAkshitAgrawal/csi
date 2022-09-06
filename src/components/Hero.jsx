@@ -3,7 +3,7 @@ import logo from "../media/logo.png";
 import Button from "./Button";
 import Socials from "./Socials";
 
-function Hero() {
+function Hero({ setPage }) {
   return (
     <div className=" bg-[#2f3340] h-[80vh] w-[80vw] lg:w-[37vw] rounded-3xl shadow-xl flex flex-col items-center p-5">
       <div className=" p-3 bg-[#3E4352] rounded-full shadow-lg mt-4">
@@ -23,11 +23,11 @@ function Hero() {
         Student Chapter
       </h1>
       <div className=" mt-16 lg:mt-24">
-        <Button title="About Us" />
+        <Button title="About Us" setPage={setPage} />
       </div>
       <div className=" flex space-x-3 mt-3">
-        <Button title="The Team" />
-        <Button title="Events" />
+        <Button title="The Team" setPage={setPage} />
+        <Button title="Events" setPage={setPage} />
       </div>
       <Socials />
     </div>
