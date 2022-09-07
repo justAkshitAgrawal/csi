@@ -20,7 +20,7 @@ function Hero({ setPage }) {
         DITU
       </h1>
       <h1 className=" text-center lg:text-4xl text-2xl tracking-wide mt-1 text-[#A6A8AD] font-semibold">
-        Student Chapter
+        Technical Club
       </h1>
       <div className="lg:pt-8">
         <Button title="About Us" setPage={setPage} />
