@@ -6,6 +6,7 @@ import karan from "../media/karan.jpeg";
 import tandon from "../media/tandon.jpeg";
 import mait from "../media/maitreyee.jpg";
 import ankit from "../media/ankit.jpg";
+import ambar from "../media/ambar.jpg";
 import abhishek from "../media/abhishek.jpeg";
 
 function Team({ setPage }) {
@@ -30,6 +31,7 @@ function Team({ setPage }) {
         <Members name="Akshit" position="Club Head" image={akshit} />
         <Members name="Yashdeep" position="Tech Head" image={tandon} />
         <Members name="Maitreyee" position="Creative Head" image={mait} />
+        <Members name="Ambar" position="Management Head" image={ambar} />
         <Members name="Karan" position="Volunteer" image={karan} />
         <Members name="Ankit" position="Volunteer" image={ankit} />
       </div>
