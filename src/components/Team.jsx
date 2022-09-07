@@ -4,6 +4,8 @@ import Members from "./Members";
 import akshit from "../media/akshit.jpeg";
 import karan from "../media/karan.jpeg";
 import tandon from "../media/tandon.jpeg";
+import mait from "../media/maitreyee.jpg";
+import ankit from "../media/ankit.jpg";
 
 function Team({ setPage }) {
   return (
@@ -20,10 +22,12 @@ function Team({ setPage }) {
       <h1 className="self-start text-center lg:text-3xl text-lg tracking-wide mt-1 text-[#A6A8AD] font-semibold pt-2">
         III Year Team
       </h1>
-      <div className=" flex space-x-3 self-start">
+      <div className=" grid grid-cols-3 self-start gap-3 lg:gap-5 lg:grid-cols-5">
         <Members name="Akshit" position="Club Head" image={akshit} />
-        <Members name="Yashdeep" position="Tech Head" image={karan} />
-        <Members name="Karan" position="Tech Head" image={tandon} />
+        <Members name="Yashdeep" position="Tech Head" image={tandon} />
+        <Members name="Maitreyee" position="Creative Head" image={mait} />
+        <Members name="Karan" position="Volunteer" image={karan} />
+        <Members name="Ankit" position="Volunteer" image={ankit} />
       </div>
     </div>
   );
