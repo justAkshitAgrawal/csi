@@ -21,13 +21,13 @@ function Team({ setPage }) {
         The Team
       </h1>
       <h1 className="self-start text-center lg:text-3xl text-lg tracking-wide mt-1 text-[#A6A8AD] font-semibold pt-2">
-        IV Year Team
+        IV Year
       </h1>
       <div className="grid self-start grid-cols-3 gap-3 lg:gap-5 lg:grid-cols-5">
         <Members name="Abhishek" position="President" image={abhishek} />
       </div>
       <h1 className="self-start text-center lg:text-3xl text-lg tracking-wide mt-1 text-[#A6A8AD] font-semibold pt-2">
-        III Year Team
+        III Year
       </h1>
       <div className="grid self-start grid-cols-3 gap-3 lg:gap-5 lg:grid-cols-5">
         <Members name="Akshit" position="Club Head" image={akshit} />
