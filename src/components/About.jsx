@@ -20,13 +20,16 @@ function About({ setPage }) {
         computing is beyond writing complex code. <div className="pt-2 "></div>
         We are dedicated to the promotion of various facets of conputing. We
         strive to promote gaming, technology, applications, programming, science
-        and fiction. <div className="pt-2 "></div> Most importantly,we wish to
+        and fiction. <div className="pt-2 "></div> Most importantly, we wish to
         familiarize people with technology,to increase digital literacy through
         fun events, talks, workshops, quizzes, Hackathons, tech hunt, blogs and
         instagram posts.
         <div className="pt-2 "></div> We are melange of people brought together
         by a common idea:{" "}
-        <span className="font-semibold underline ">Tech is the future.</span>
+        <span className="font-semibold underline ">
+          <br />
+          Tech is the future.
+        </span>
       </h1>
     </div>
   );
