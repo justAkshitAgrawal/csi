@@ -13,7 +13,7 @@ import amogh from "../media/amogh.jpg";
 
 function Team({ setPage }) {
   return (
-    <div className=" bg-[#2f3340] h-fit w-[80vw] lg:h-fit lg:w-[37vw] rounded-3xl shadow-xl flex flex-col items-center p-10 lg:pb-9 space-y-4">
+    <div className=" bg-[#2f3340] h-fit w-[80vw] lg:h-fit lg:w-[37vw] rounded-3xl shadow-xl flex flex-col items-center p-10 lg:pb-9 space-y-4 overflow-y-auto max-h-[80vh] scrollbar-hide">
       <div className="self-start ">
         <Button title="back" setPage={setPage} />
       </div>

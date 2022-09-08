@@ -5,13 +5,13 @@ import Socials from "./Socials";
 
 function Hero({ setPage }) {
   return (
-    <div className=" bg-[#2f3340] h-fit w-[80vw] lg:h-fit lg:w-[37vw] rounded-3xl shadow-xl flex flex-col items-center p-5 lg:pb-9 space-y-4">
+    <div className=" bg-[#2f3340] h-fit w-[80vw] lg:h-fit lg:w-[37vw] rounded-3xl shadow-xl flex flex-col items-center p-5 lg:pb-9 space-y-4 overflow-y-scroll scrollbar-hide">
       <div className=" p-3 bg-[#3E4352] rounded-full shadow-lg mt-2">
         <div className=" p-2 rounded-full bg-gradient-to-r from-[#7A61DA] to-[#ff7a7a] shadow-lg">
           <img
             src={logo}
             alt=""
-            className=" h-24 w-24 rounded-full shadow-xl lg:h-32 lg:w-32"
+            className="w-24 h-24 rounded-full shadow-xl lg:h-32 lg:w-32"
           />
         </div>
       </div>
@@ -25,7 +25,7 @@ function Hero({ setPage }) {
       <div className="lg:pt-8">
         <Button title="About Us" setPage={setPage} />
       </div>
-      <div className=" flex space-x-3 mt-3">
+      <div className="flex mt-3 space-x-3 ">
         <Button title="The Team" setPage={setPage} />
         <Button title="Events" setPage={setPage} />
       </div>
