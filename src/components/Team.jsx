@@ -10,6 +10,7 @@ import ambar from "../media/ambar.jpg";
 import abhishek from "../media/abhishek.jpeg";
 import van from "../media/van.jpeg";
 import amogh from "../media/amogh.jpg";
+import aman from "../media/aman.jpeg";
 
 function Team({ setPage }) {
   return (
@@ -32,6 +33,7 @@ function Team({ setPage }) {
       <div className="grid self-start grid-cols-3 gap-3 lg:gap-5 lg:grid-cols-5">
         <Members name="Akshit" position="Club Head" image={akshit} />
         <Members name="Vanshika" position="Secretary" image={van} />
+        <Members name="Aman" position="Treasurer" image={aman} />
         <Members name="Yashdeep" position="Tech Head" image={tandon} />
         <Members name="Maitreyee" position="Creative Head" image={mait} />
         <Members name="Amogh" position="Mgmt Head" image={amogh} />

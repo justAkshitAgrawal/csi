@@ -25,7 +25,7 @@ function About({ setPage }) {
         fun events, talks, workshops, quizzes, Hackathons, tech hunt, blogs and
         instagram posts.
         <div className="pt-2 "></div> We are melange of people brought together
-        by a common idea:{" "}
+        by a common idea:
         <span className="font-semibold underline ">
           <br />
           Tech is the future.
