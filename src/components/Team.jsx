@@ -11,6 +11,9 @@ import abhishek from "../media/abhishek.jpeg";
 import van from "../media/van.jpeg";
 import amogh from "../media/amogh.jpg";
 import aman from "../media/aman.jpeg";
+import vbv from "../media/vbv.jpg";
+import gautam from "../media/gautam.jpg";
+import keerti from "../media/keerti.jpeg";
 
 function Team({ setPage }) {
   return (
@@ -33,11 +36,14 @@ function Team({ setPage }) {
       <div className="grid self-start grid-cols-3 gap-3 lg:gap-5 lg:grid-cols-5">
         <Members name="Akshit" position="Club Head" image={akshit} />
         <Members name="Vanshika" position="Secretary" image={van} />
+        <Members name="Keerti" position="Joint Secretary" image={keerti} />
         <Members name="Aman" position="Treasurer" image={aman} />
         <Members name="Yashdeep" position="Tech Head" image={tandon} />
         <Members name="Maitreyee" position="Creative Head" image={mait} />
         <Members name="Amogh" position="Mgmt Head" image={amogh} />
         <Members name="Ambar" position="Mgmt Head" image={ambar} />
+        <Members name="Gautam" position="PR Head" image={gautam} />
+        <Members name="Vaibhav" position="Design Head" image={vbv} />
         <Members name="Karan" position="Volunteer" image={karan} />
         <Members name="Ankit" position="Volunteer" image={ankit} />
       </div>
